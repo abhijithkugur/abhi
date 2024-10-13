@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h1>Hello, I'm <span> Abhijith KT</span></h1>
+            <p>I'm a developer with experience in [Automation Anywhere(A360), Power Automate, Python]. I love building efficient and scalable BOT's.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-robot"></i>
+                    <p>RPA Tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="https://github.com/yourusername/project1" target="_blank">View Code</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="https://github.com/yourusername/project2" target="_blank">View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you want to get in touch, feel free to contact me via email.</p>
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Your Name</p>
+            <ul class="socials">
+                <li><a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
